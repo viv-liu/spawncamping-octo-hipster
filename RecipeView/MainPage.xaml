@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ViewModels="clr-namespace:RecipeView"
@@ -102,6 +103,23 @@
                          ItemTemplate="{StaticResource LongListSelectorItemTemplate}"
                          HideEmptyGroups ="true" IsGroupingEnabled ="true" LayoutMode="List">
                 </phone:LongListSelector>
+            </phone:PivotItem>
+
+            <!--Pivot item three-->
+            <phone:PivotItem Header="Ingredients" >
+                <toolkit:ExpanderView x:Name="expander">
+                    <toolkit:ExpanderView.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock FontWeight="Bold" Margin="4">Click here to expand</TextBlock>
+                            <Border Background="{StaticResource PhoneAccentBrush}" BorderBrush="{StaticResource PhoneAccentBrush}" BorderThickness="2"	
+                                       Width="auto" Height="62"  				 
+                                        HorizontalAlignment="Left">
+                                <Image Source="Images/knife16.png" Margin="0,10,10,0"/>
+                            </Border>
+                        </StackPanel>
+                    </toolkit:ExpanderView.Header>
+                    
+                </toolkit:ExpanderView>
             </phone:PivotItem>
         </phone:Pivot>
 
