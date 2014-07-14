@@ -7,7 +7,6 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using RecipeView.Resources;
-using RecipeView.ViewModels;
 
 namespace RecipeView
 {
@@ -42,6 +41,8 @@ namespace RecipeView
         /// </summary>
         public App()
         {
+
+            ThemeManager.ToLightTheme();
             // Global handler for uncaught exceptions.
             UnhandledException += Application_UnhandledException;
 

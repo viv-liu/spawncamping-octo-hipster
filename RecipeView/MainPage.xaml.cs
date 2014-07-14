@@ -25,7 +25,6 @@ namespace RecipeView
 
             // Set the data context of the listbox control to the sample data
             DataContext = App.ViewModel;
-            expander.ItemsSource = new string[] { "hello", "world!" };
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
         }
