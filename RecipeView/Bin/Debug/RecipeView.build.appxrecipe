@@ -222,11 +222,20 @@
     <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Assets\WideLogo.png">
       <PackagePath>Assets\WideLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Images\Barcode.png">
-      <PackagePath>Images\Barcode.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Images\barcodeMain.png">
+      <PackagePath>Images\barcodeMain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Images\fridgeMain.png">
+      <PackagePath>Images\fridgeMain.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Images\knife16.png">
       <PackagePath>Images\knife16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Images\magnifyingGlassMain.png">
+      <PackagePath>Images\magnifyingGlassMain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Images\matchMain.png">
+      <PackagePath>Images\matchMain.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Toolkit.Content\ApplicationBar.Add.png">
       <PackagePath>Toolkit.Content\ApplicationBar.Add.png</PackagePath>

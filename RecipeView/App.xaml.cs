@@ -42,7 +42,7 @@ namespace RecipeView
         public App()
         {
 
-            ThemeManager.ToLightTheme();
+            //ThemeManager.ToLightTheme();
             // Global handler for uncaught exceptions.
             UnhandledException += Application_UnhandledException;
 

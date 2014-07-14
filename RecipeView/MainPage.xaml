@@ -13,10 +13,6 @@
     mc:Ignorable="d"
     shell:SystemTray.IsVisible="True">
     
-    <phone:PhoneApplicationPage.Resources>
-        <phone:JumpListItemBackgroundConverter x:Key="BackgroundConverter" Disabled="#FF38477E"/>
-        <phone:JumpListItemForegroundConverter x:Key="ForegroundConverter"/>
-    </phone:PhoneApplicationPage.Resources>
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <Grid.RowDefinitions>
@@ -31,23 +27,28 @@
         </StackPanel>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+        <Grid x:Name="ContentPanel" Grid.Row="1" HorizontalAlignment="Center" Margin="12,0,12,0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="225"/>
+                <ColumnDefinition Width="225"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
+                <RowDefinition Height="225"/>
+                <RowDefinition Height="225"/>
             </Grid.RowDefinitions>
-            <Border Background="{Binding Converter={StaticResource BackgroundConverter}}" Margin="6" >
-                <TextBlock Text="{Binding Text}" 
-                                           FontFamily="{StaticResource PhoneFontFamilySemiBold}"
-                                           FontSize="24" Padding="11,0,0,0"
-                                           Foreground="{Binding Converter={StaticResource ForegroundConverter}}" VerticalAlignment="Stretch" TextWrapping="Wrap"/>
+            <Border Background="#f02401" Grid.Column ="0" Margin="6" >
+                <Image Source="Images/barcodeMain.png" HorizontalAlignment= "Center" Stretch = "Uniform" Margin="24" VerticalAlignment="Center"/>
+                
             </Border>
-            <Image Source="Images/Barcode.png" Stretch ="UniformToFill" Height="174" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-
+            <Border Background="#77bc00" Grid.Column ="1" Margin="6" >
+                <Image Source="Images/fridgeMain.png" HorizontalAlignment= "Center" Stretch = "Uniform" Margin="24" VerticalAlignment="Center"/>
+            </Border>
+            <Border Background="#219dfd" Grid.Column ="0" Grid.Row ="1" Margin="6" >
+                <Image Source="Images/matchMain.png" HorizontalAlignment= "Center" Stretch = "Uniform" Margin="24" VerticalAlignment="Center"/>
+            </Border>
+            <Border Background="#ffb700" Grid.Column ="1" Grid.Row ="1" Margin="6" >
+                <Image Source="Images/magnifyingGlassMain.png" HorizontalAlignment= "Center" Stretch = "Uniform" Margin="36" VerticalAlignment="Center"/>
+            </Border>
         </Grid> 
         <!--Before shipping remove this XAML and the image itself.-->
         <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" IsHitTestVisible="False" />-->

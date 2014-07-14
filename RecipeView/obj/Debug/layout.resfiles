@@ -12,8 +12,11 @@ Assets\Tiles\FlipCycleTileSmall.png
 Assets\Tiles\IconicTileMediumLarge.png
 Assets\Tiles\IconicTileSmall.png
 Assets\WideLogo.png
-Images\Barcode.png
+Images\barcodeMain.png
+Images\fridgeMain.png
 Images\knife16.png
+Images\magnifyingGlassMain.png
+Images\matchMain.png
 Images\StirFryPic.jpg
 README_FIRST.txt
 Toolkit.Content\ApplicationBar.Add.png
