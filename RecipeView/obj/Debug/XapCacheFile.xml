@@ -1,6 +1,6 @@
-﻿<xapCache source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Bin\Debug\RecipeView_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-07-14 12:00:30 AM">
-  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="2014-07-13 11:57:08 PM" />
-  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\RecipeView.dll" archivePath="RecipeView.dll" lastWriteTime="2014-07-14 12:00:29 AM" />
+﻿<xapCache source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Bin\Debug\RecipeView_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-07-19 3:10:41 PM">
+  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="2014-07-18 9:54:01 PM" />
+  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\RecipeView.dll" archivePath="RecipeView.dll" lastWriteTime="2014-07-19 3:10:40 PM" />
   <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014-06-28 1:17:55 PM" />
   <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="2014-07-06 6:18:40 PM" />
   <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="2014-07-06 6:18:40 PM" />
@@ -31,6 +31,6 @@
   <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\packages\PhoneThemeManager.2.0\lib\windowsphone8\JeffWilcox.PhoneThemeManager.dll" archivePath="JeffWilcox.PhoneThemeManager.dll" lastWriteTime="2014-07-06 6:23:23 PM" />
   <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2014-07-06 6:19:43 PM" />
   <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014-07-13 10:56:36 PM" />
-  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2014-07-14 12:00:30 AM" />
-  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="2014-07-13 11:57:09 PM" />
+  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="2014-07-19 3:10:41 PM" />
+  <file source="C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="2014-07-18 9:54:01 PM" />
 </xapCache>

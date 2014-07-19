@@ -158,5 +158,5 @@ C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\
 C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\ProjectArchitectures.txt
 C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\MDILProjectFiles.xml
 C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\XapCacheFile.xml
-C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\Page1.g.cs
 C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\RecipeView.csprojResolveAssemblyReference.cache
+C:\Users\Vivian\Documents\Visual Studio 2013\Projects\spawncamping-octo-hipster\RecipeView\obj\Debug\MatchedRecipeList.g.cs

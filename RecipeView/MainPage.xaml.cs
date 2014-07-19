@@ -43,6 +43,11 @@ namespace RecipeView
 
         }
 
+        private void Match_Clicked(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/MatchedRecipeList.xaml", UriKind.Relative));
+        }
+
 
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()

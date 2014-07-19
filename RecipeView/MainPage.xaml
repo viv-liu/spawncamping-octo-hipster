@@ -43,7 +43,7 @@
             <Border Background="#77bc00" Grid.Column ="1" Margin="6" >
                 <Image Source="Images/fridgeMain.png" HorizontalAlignment= "Center" Stretch = "Uniform" Margin="24" VerticalAlignment="Center"/>
             </Border>
-            <Border Background="#219dfd" Grid.Column ="0" Grid.Row ="1" Margin="6" >
+            <Border Background="#219dfd" Tap="Match_Clicked" Grid.Column ="0" Grid.Row ="1" Margin="6" >
                 <Image Source="Images/matchMain.png" HorizontalAlignment= "Center" Stretch = "Uniform" Margin="24" VerticalAlignment="Center"/>
             </Border>
             <Border Background="#ffb700" Grid.Column ="1" Grid.Row ="1" Margin="6" >
