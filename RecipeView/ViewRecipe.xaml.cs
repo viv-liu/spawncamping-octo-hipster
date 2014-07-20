@@ -15,6 +15,7 @@ namespace RecipeView
         public ViewRecipe()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
 
         private void Pivot_Loaded(object sender, RoutedEventArgs e)

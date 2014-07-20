@@ -79,7 +79,9 @@ namespace RecipeView
 
         private void matchedRecipelist_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // TODO: navigate to ViewRecipe page
+            MainViewModel.CreateInstructions(); // TODO: replace with actual passing List<Instructions<Ingredients>> over.
+            
+            NavigationService.Navigate(new Uri("/ViewRecipe.xaml", UriKind.Relative));
         }
     }
 }

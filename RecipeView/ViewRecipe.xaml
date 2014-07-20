@@ -142,30 +142,27 @@
           d:DataContext="{d:DesignInstance Type=ViewModels:MainViewModel, IsDesignTimeCreatable=True}">
 
         <!--Pivot Control-->
-        <phone:Pivot Title="Start cooking!" Loaded="Pivot_Loaded">
+        <phone:Pivot Title="Chicken Stirfry" Loaded="Pivot_Loaded">
             <!--Pivot item one-->
             <phone:PivotItem Header="Summary">
-                <StackPanel Margin = "0,0,0,18">
-                    <Grid>
-                        <Image Source="Images/StirFryPic.jpg" Stretch ="UniformToFill" Height="174" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-                        <TextBlock Text="Chicken StirFry" Margin="0,118,10,0" Padding="12" TextAlignment="Right" FontSize="36"/>
-                    </Grid>
-                    <Grid Margin="4">
-                        <Grid.RowDefinitions>
-                            <RowDefinition/>
-                            <RowDefinition/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="auto" />
-                        </Grid.ColumnDefinitions>
-                        <toolkit:Rating Grid.Column="0" HorizontalAlignment="Left" Margin="8" 
-                                        UnfilledItemStyle="{StaticResource UnfilledNomStyle}" FilledItemStyle="{StaticResource FilledNomStyle}" Value="4.5" />
-                        <TextBlock Name ="percentMatchText" Grid.Column ="1" Style="{StaticResource PhoneTextAccentStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Center" Text="75% match" TextWrapping="Wrap"/>
-                        <TextBlock Name= "prepTimeText" Grid.Row="1" Style="{StaticResource PhoneTextBlockBase}" TextWrapping="Wrap" Text="Prep time: 20min"/>
-                    </Grid>
-                    <TextBlock TextWrapping="Wrap" Margin ="4,16,4,16" Text="Description. Delicious chicken and veggies very quick to make. Invented in 1450 this dish has stuck around for a good reason."/>
-                </StackPanel>
+                <Grid Margin="4">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Row="0" Grid.ColumnSpan="2" Source="Images/StirFryPic.jpg" Stretch ="UniformToFill" Height="174" Margin="0,10,10,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+                    <toolkit:Rating Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Margin="8" 
+                                    UnfilledItemStyle="{StaticResource UnfilledNomStyle}" FilledItemStyle="{StaticResource FilledNomStyle}" Value="4.5" />
+                    <TextBlock Name ="percentMatchText" Grid.Row="1" Grid.Column ="1" Style="{StaticResource PhoneTextAccentStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Center" Text="75% match" TextWrapping="Wrap"/>
+                    <TextBlock Name= "prepTimeText" Grid.Row="2" Style="{StaticResource PhoneTextBlockBase}" TextWrapping="Wrap" Text="Prep time: 20min"/>
+                    <TextBlock Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource PhoneTextNormalStyle}" TextWrapping="Wrap" Text="Description. Delicious chicken and veggies very quick to make. Invented in 1450 this dish has stuck around for a good reason." Margin="12,26,12,0"/>
+                </Grid>
             </phone:PivotItem>
 
             <!--Pivot item two-->
